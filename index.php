@@ -23,5 +23,5 @@ if(isset($_GET['page'])){
 
 require "./controllers/$page.php";
 
-require 'template.php'; // template calls "./views/$page.php"
+require "./views/$page.php";
 

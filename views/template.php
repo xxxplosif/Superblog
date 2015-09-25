@@ -8,7 +8,7 @@
 <body>
     <div class="container">
         <header>
-            <h1><a href=""><?php echo SITE_TITLE ?></a></h1>
+            <h1><a href="./"><?php echo SITE_TITLE ?></a></h1>
             <p class="slogan"><?php echo SLOGAN ?></p> 
             <nav>
                 <ul>
@@ -19,7 +19,7 @@
         </header>
         <section>
         <?php
-            include "./views/$page.php";
+            echo $content;
         ?>
         </section>
         <footer><?php echo 'Copyright © ' . date('Y') . ' ' . SITE_TITLE ?></footer>
